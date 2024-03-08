@@ -17,4 +17,4 @@ def pascal_triangle(n):
 if __name__ == "__main__":
     triangle = pascal_triangle(5)
     for row in triangle:
-        print(row)
+        print(row
