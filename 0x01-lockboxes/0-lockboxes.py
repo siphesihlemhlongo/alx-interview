@@ -21,4 +21,4 @@ def canUnlockAll(boxes):
 print(canUnlockAll([[1], [2], [3], [4], []]))  # True
 print(canUnlockAll([[1, 4, 5], [2], [5, 2], [3], [4, 1], [3, 5]]))  # True
 print(canUnlockAll([[4, 6], [2], [0, 4, 1], [3], [], [4, 1], [5, 6]]))  # False
-print(canUnlockAll([[0]]))  # True
+print(canUnlockAll([[0]])) # True
