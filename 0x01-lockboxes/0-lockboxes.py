@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def canUnlockAll(boxes):
     if not boxes:
         return False
@@ -14,7 +13,9 @@ def canUnlockAll(boxes):
         for key in boxes[current_box]:
             if key not in visited and key < len(boxes):
                 queue.append(key)
+                visited.add(key)  # Add the key to visited
 
+    # Check if all boxes have been visited
     return len(visited) == len(boxes)
 
 # Testing the function
